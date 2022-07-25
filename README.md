@@ -177,7 +177,7 @@ vuetify-material-dashboard
 │           ├── pages
 │           │   └── UserProfile.vue
 │           └── tables
-│               └── RegularTables.vue
+│               └── suCards.vue.vue
 ├── tests
 │   ├── e2e
 │   │   ├── plugins

@@ -6,7 +6,7 @@
     :expand-on-hover="expandOnHover"
     :right="$vuetify.rtl"
     :src="barImage"
-    mobile-break-point="960"
+    mobile-breakpoint="960"
     app
     width="260"
     v-bind="$attrs"
@@ -98,7 +98,7 @@
           to: '/',
         },
         {
-          title: 'rtables',
+          title: 'Cards',
           icon: 'mdi-clipboard-outline',
           to: '/tables/regular-tables',
         },
@@ -106,11 +106,6 @@
           title: 'typography',
           icon: 'mdi-format-font',
           to: '/components/typography',
-        },
-        {
-          title: 'icons',
-          icon: 'mdi-chart-bubble',
-          to: '/components/icons',
         },
       ],
     }),

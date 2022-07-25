@@ -14,19 +14,7 @@
       justify="center"
     >
       <v-col cols="12">
-        <base-material-card
-          color="green"
-        >
-          <template v-slot:heading>
-            <div class="display-2 font-weight-light">
-              Material Dashboard Heading
-            </div>
-
-            <div class="subtitle-1 font-weight-light">
-              Created using Roboto Font Family
-            </div>
-          </template>
-
+        <v-card>
           <v-card-text>
             <v-container
               class="pa-0"
@@ -70,7 +58,7 @@
               </v-row>
             </v-container>
           </v-card-text>
-        </base-material-card>
+        </v-card>
       </v-col>
     </v-row>
   </v-container>

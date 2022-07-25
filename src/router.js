@@ -29,20 +29,15 @@ export default new Router({
           component: () => import('@/views/dashboard/component/Notifications'),
         },
         {
-          name: 'Icons',
-          path: 'components/icons',
-          component: () => import('@/views/dashboard/component/Icons'),
-        },
-        {
           name: 'Typography',
           path: 'components/typography',
           component: () => import('@/views/dashboard/component/Typography'),
         },
         // Tables
         {
-          name: 'Regular Tables',
+          name: 'Cards',
           path: 'tables/regular-tables',
-          component: () => import('@/views/dashboard/tables/RegularTables'),
+          component: () => import('@/views/dashboard/cards/suCards.vue'),
         },
         // Maps
         {
