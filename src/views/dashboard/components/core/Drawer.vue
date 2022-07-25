@@ -27,11 +27,11 @@
       <v-list-item>
         <v-list-item-avatar
           class="align-self-center"
-          color="white"
+          color="none"
           contain
         >
           <v-img
-            src="https://demos.creative-tim.com/vuetify-material-dashboard/favicon.ico"
+            src="https://s3-eu-west-1.amazonaws.com/statics.cirrusware.net/Public/Site_SendUp/Images/Picto-logo-color.svg"
             max-height="30"
           />
         </v-list-item-avatar>
@@ -51,8 +51,6 @@
       expand
       nav
     >
-      <!-- Style cascading bug  -->
-      <!-- https://github.com/vuetifyjs/vuetify/pull/8574 -->
       <div />
 
       <template v-for="(item, i) in computedItems">
@@ -70,21 +68,9 @@
           :item="item"
         />
       </template>
-
-      <!-- Style cascading bug  -->
-      <!-- https://github.com/vuetifyjs/vuetify/pull/8574 -->
+      
       <div />
     </v-list>
-
-    <template v-slot:append>
-      <base-item
-        :item="{
-          title: $t('upgrade'),
-          icon: 'mdi-package-up',
-          to: '/upgrade',
-        }"
-      />
-    </template>
   </v-navigation-drawer>
 </template>
 
@@ -107,14 +93,9 @@
     data: () => ({
       items: [
         {
-          icon: 'mdi-view-dashboard',
           title: 'dashboard',
+          icon: 'mdi-view-dashboard',
           to: '/',
-        },
-        {
-          icon: 'mdi-account',
-          title: 'user',
-          to: '/pages/user',
         },
         {
           title: 'rtables',
@@ -130,16 +111,6 @@
           title: 'icons',
           icon: 'mdi-chart-bubble',
           to: '/components/icons',
-        },
-        {
-          title: 'google',
-          icon: 'mdi-map-marker',
-          to: '/maps/google-maps',
-        },
-        {
-          title: 'notifications',
-          icon: 'mdi-bell',
-          to: '/components/notifications',
         },
       ],
     }),
@@ -183,6 +154,9 @@
   #core-navigation-drawer
     .v-list-group__header.v-list-item--active:before
       opacity: .24
+
+    .v-image__image--cover
+      background-size: auto
 
     .v-list-item
       &__icon--text,
