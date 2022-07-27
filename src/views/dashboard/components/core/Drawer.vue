@@ -92,15 +92,20 @@
 
     data: () => ({
       items: [
-        {
-          title: 'dashboard',
-          icon: 'mdi-view-dashboard',
-          to: '/',
-        },
+        // {
+        //   title: 'dashboard',
+        //   icon: 'mdi-view-dashboard',
+        //   to: '/',
+        // },
         {
           title: 'Cards',
-          icon: 'mdi-clipboard-outline',
-          to: '/tables/regular-tables',
+          icon: 'mdi-panorama-wide-angle',
+          to: '/cards/suCards',
+        },
+        {
+          title: 'Buttons',
+          icon: 'mdi-panorama-wide-angle',
+          to: '/buttons/suButtons',
         },
         {
           title: 'typography',

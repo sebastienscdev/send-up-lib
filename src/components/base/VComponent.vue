@@ -1,14 +1,14 @@
 <template>
-  <section class="mb-12 text-center">
+  <section class="text-center">
     <h1
       class="font-weight-light mb-2 headline"
       v-text="`${heading}`"
     />
 
-    <!-- <span
+    <span
       class="font-weight-light subtitle-1"
     >
-     Exemple de la présentation card
+     <p class="mb-0" v-text="`${introduction}`"></p>
       <a
         :href="`https://vuetifyjs.com/${link}`"
         rel="noopener"
@@ -16,9 +16,8 @@
         class="secondary--text"
         style="text-decoration:none;"
       >
-        full documentation
       </a>
-    </span> -->
+    </span>
   </section>
 </template>
 
@@ -32,6 +31,10 @@
         default: '',
       },
       link: {
+        type: String,
+        default: '',
+      },
+      introduction: {
         type: String,
         default: '',
       },

@@ -1,0 +1,10 @@
+<svg id="profil" xmlns="http://www.w3.org/2000/svg" width="27.5" height="27.5" viewBox="0 0 27.5 27.5">
+  <g id="people" transform="translate(-30 4.033)">
+    <g id="Groupe_269" data-name="Groupe 269" transform="translate(30 12.185)">
+      <path id="Tracé_66" data-name="Tracé 66" d="M47.5,62.634v1.283a2.758,2.758,0,0,1-2.75,2.75h-22A2.758,2.758,0,0,1,20,63.918V62.634c0-3.346,3.9-5.363,7.562-6.967a1.372,1.372,0,0,0,.367-.183.851.851,0,0,1,.871.046,8.994,8.994,0,0,0,4.95,1.513,9.34,9.34,0,0,0,4.95-1.467.851.851,0,0,1,.871-.046,1.372,1.372,0,0,1,.367.183C43.6,57.272,47.5,59.288,47.5,62.634Z" transform="translate(-20 -55.386)" fill="#0b2357"/>
+    </g>
+    <g id="Groupe_270" data-name="Groupe 270" transform="translate(36.921 -4.033)">
+      <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="6.829" cy="7.563" rx="6.829" ry="7.563" fill="#0b2357"/>
+    </g>
+  </g>
+</svg>

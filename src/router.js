@@ -36,8 +36,13 @@ export default new Router({
         // Tables
         {
           name: 'Cards',
-          path: 'tables/regular-tables',
-          component: () => import('@/views/dashboard/cards/suCards.vue'),
+          path: 'cards/suCards',
+          component: () => import('@/views/dashboard/cards/suCards'),
+        },
+        {
+          name: 'Buttons',
+          path: '/buttons/suButtons',
+          component: () => import('@/views/dashboard/buttons/suButtons'),
         },
         // Maps
         {

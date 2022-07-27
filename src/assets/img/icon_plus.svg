@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icon_plus" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 15.3 15.3" style="enable-background:new 0 0 15.3 15.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000076600557841203242950000005014444619424072600_);}
+	.st1{fill:#FE9870;}
+</style>
+<g id="Groupe_8">
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M15.3,7.6c0,0.5-0.3,0.9-0.8,1c0,0-0.1,0-0.1,0H8.6v5.7c0,0.5-0.3,0.9-0.8,1c0,0-0.1,0-0.1,0
+				c-0.5,0-0.9-0.3-1-0.8c0,0,0-0.1,0-0.1V8.6H1C0.5,8.6,0,8.3,0,7.8c0,0,0-0.1,0-0.1c0-0.5,0.3-0.9,0.8-1c0,0,0.1,0,0.1,0h5.7V1
+				C6.7,0.5,7,0,7.5,0c0,0,0.1,0,0.1,0c0.5,0,0.9,0.3,1,0.8c0,0,0,0.1,0,0.1v5.7h5.7c0.5,0,0.9,0.3,1,0.8
+				C15.3,7.6,15.3,7.6,15.3,7.6z"/>
+		</defs>
+		<clipPath id="SVGID_00000065059236989887178130000012385948240062269360_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="Groupe_de_masques_8" style="clip-path:url(#SVGID_00000065059236989887178130000012385948240062269360_);">
+			<g id="Icon_Color" transform="translate(-2.549 -2.549)">
+				<rect id="Shape" x="2.5" y="2.5" class="st1" width="15.3" height="15.3"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

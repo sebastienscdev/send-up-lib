@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="icone_deconnexion" transform="translate(-1334 -24)">
+    <rect id="Nav" width="40" height="40" rx="4" transform="translate(1334 24)" fill="none"/>
+    <g id="log-out-bis" transform="translate(1346 36)">
+      <path id="log-out" d="M5.333,16H1.778A1.778,1.778,0,0,1,0,14.222V1.778A1.778,1.778,0,0,1,1.778,0H5.333" fill="none" stroke="#51b748" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.476"/>
+      <path id="log-out-2" data-name="log-out" d="M11.556,12.444,16,8,11.556,3.555" fill="none" stroke="#51b748" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.476"/>
+      <path id="log-out-3" data-name="log-out" d="M16,8H5.333" fill="none" stroke="#51b748" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.476"/>
+    </g>
+  </g>
+</svg>

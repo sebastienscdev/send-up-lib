@@ -163,6 +163,7 @@ vuetify-material-dashboard
 │           │   ├── Grid.vue
 │           │   ├── Icons.vue
 │           │   ├── Notifications.vue
+│           │   ├── SendUpCard.vue
 │           │   ├── Tabs.vue
 │           │   └── Typography.vue
 │           ├── components

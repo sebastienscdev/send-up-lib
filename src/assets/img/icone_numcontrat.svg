@@ -1,0 +1,10 @@
+<svg id="icone_numcontrat" xmlns="http://www.w3.org/2000/svg" width="15.5" height="16.023" viewBox="0 0 15.5 16.023">
+  <path id="Tracé_647" data-name="Tracé 647" d="M16.371,5.055h5.5a.5.5,0,0,0,.509-.509V3.527A1.521,1.521,0,0,0,20.889,2h-3.5a1.521,1.521,0,0,0-1.5,1.527V4.545A.46.46,0,0,0,16.371,5.055Z" transform="translate(-11.357 -2)" fill="#383f45"/>
+  <path id="Tracé_648" data-name="Tracé 648" d="M5.5,5.25H6a.983.983,0,0,1,1,1V7.273A1.272,1.272,0,0,0,8.264,8.559h5.473a1.272,1.272,0,0,0,1.255-1.286V6.255a.983.983,0,0,1,1-1H16.5A2.264,2.264,0,0,1,18.75,7.527V18.473A2.264,2.264,0,0,1,16.5,20.75H5.5A2.264,2.264,0,0,1,3.25,18.473V7.527A2.264,2.264,0,0,1,5.5,5.25Zm.014,1.5H5.5a.772.772,0,0,0-.745.777V18.473a.772.772,0,0,0,.745.777H16.5a.772.772,0,0,0,.745-.777V7.527A.772.772,0,0,0,16.5,6.75h-.014v.523a2.774,2.774,0,0,1-2.755,2.786H8.264A2.774,2.774,0,0,1,5.509,7.273Z" transform="translate(-3.25 -4.727)" fill="#383f45"/>
+  <path id="Ligne_3" data-name="Ligne 3" d="M8,.5H0A.5.5,0,0,1-.5,0,.5.5,0,0,1,0-.5H8a.5.5,0,0,1,.5.5A.5.5,0,0,1,8,.5Z" transform="translate(4.25 7.5)" fill="#383f45"/>
+  <path id="Tracé_657" data-name="Tracé 657" d="M0,0H0" transform="translate(2.75 7.5)" fill="none" stroke="#383f45" stroke-linecap="round" stroke-width="1"/>
+  <path id="Ligne_5" data-name="Ligne 5" d="M8,.5H0A.5.5,0,0,1-.5,0,.5.5,0,0,1,0-.5H8a.5.5,0,0,1,.5.5A.5.5,0,0,1,8,.5Z" transform="translate(4.25 9.5)" fill="#383f45"/>
+  <path id="Tracé_656" data-name="Tracé 656" d="M0,0H0" transform="translate(2.75 9.5)" fill="none" stroke="#383f45" stroke-linecap="round" stroke-width="1"/>
+  <path id="Ligne_7" data-name="Ligne 7" d="M8,.5H0A.5.5,0,0,1-.5,0,.5.5,0,0,1,0-.5H8a.5.5,0,0,1,.5.5A.5.5,0,0,1,8,.5Z" transform="translate(4.25 11.5)" fill="#383f45"/>
+  <path id="Tracé_655" data-name="Tracé 655" d="M0,0H0" transform="translate(2.75 11.5)" fill="none" stroke="#383f45" stroke-linecap="round" stroke-width="1"/>
+</svg>

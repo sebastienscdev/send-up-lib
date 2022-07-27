@@ -3,12 +3,12 @@
     <v-card
       id="settings"
       class="py-2 px-4"
-      color="rgba(0, 0, 0, .3)"
+      color="rgb(105 197 186 / 48%)"
       dark
       flat
       link
       min-width="100"
-      style="position: fixed; top: 115px; right: -35px; border-radius: 8px;"
+      style="position: fixed; top: 10px; right: -35px; border-radius: 8px;"
     >
       <v-icon large>
         mdi-settings
@@ -32,9 +32,9 @@
         width="300"
       >
         <v-card-text>
-          <strong class="mb-3 d-inline-block">SIDEBAR FILTERS</strong>
+          <strong class="mb-3 d-inline-block">Filtres</strong>
 
-          <v-item-group v-model="color">
+          <!-- <v-item-group v-model="color">
             <v-item
               v-for="color in colors"
               :key="color"
@@ -50,9 +50,7 @@
                 />
               </template>
             </v-item>
-          </v-item-group>
-
-          <v-divider class="my-4 secondary" />
+          </v-item-group> -->
 
           <v-row
             align="center"
@@ -67,28 +65,6 @@
             <v-col cols="auto">
               <v-switch
                 v-model="$vuetify.theme.dark"
-                class="ma-0 pa-0"
-                color="secondary"
-                hide-details
-              />
-            </v-col>
-          </v-row>
-
-          <v-divider class="my-4 secondary" />
-
-          <v-row
-            align="center"
-            no-gutters
-          >
-            <v-col cols="auto">
-              Sidebar Image
-            </v-col>
-
-            <v-spacer />
-
-            <v-col cols="auto">
-              <v-switch
-                v-model="showImg"
                 class="ma-0 pa-0"
                 color="secondary"
                 hide-details
@@ -112,14 +88,12 @@
     mixins: [Proxyable],
 
     data: () => ({
-      color: '#E91E63',
+      color: '#65c6bb',
       colors: [
         '#65c6bb',
         '#ff9800',
       ],
       menu: false,
-      saveImage: '',
-      showImg: true,
     }),
 
     computed: {
@@ -127,23 +101,9 @@
     },
 
     watch: {
-      color (val) {
-        this.$vuetify.theme.themes[this.isDark ? 'dark' : 'light'].primary = val
-      },
-      showImg (val) {
-        if (!val) {
-          this.saveImage = this.barImage
-          this.setBarImage('')
-        } else if (this.saveImage) {
-          this.setBarImage(this.saveImage)
-          this.saveImage = ''
-        } else {
-          this.setBarImage(val)
-        }
-      },
-      image (val) {
-        this.setBarImage(val)
-      },
+      // color (val) {
+      //   this.$vuetify.theme.themes[this.isDark ? 'dark' : 'light'] = val
+      // },
     },
 
     methods: {
@@ -155,6 +115,10 @@
 </script>
 
 <style lang="sass">
+  .v-application .primary
+    background-color: auto !important
+    border-color: auto !important
+
   .v-settings
     .v-item-group > *
       cursor: pointer
