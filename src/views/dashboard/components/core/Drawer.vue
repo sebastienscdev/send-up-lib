@@ -105,7 +105,7 @@
         {
           title: 'Buttons',
           icon: 'mdi-panorama-wide-angle',
-          to: '/buttons/suButtons',
+          to: '/buttons/suButtonsView',
         },
         {
           title: 'typography',

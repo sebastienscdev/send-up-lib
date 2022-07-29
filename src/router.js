@@ -41,8 +41,8 @@ export default new Router({
         },
         {
           name: 'Buttons',
-          path: '/buttons/suButtons',
-          component: () => import('@/views/dashboard/buttons/suButtons'),
+          path: '/buttons/suButtonsView',
+          component: () => import('@/views/dashboard/buttons/suButtonsView'),
         },
         // Maps
         {

@@ -1,8 +1,8 @@
 <template>
     <a href="#" type="button" :loading="loading" :disabled="disabled" :width="width" 
-    @click="$emit('action');" :class="disabled ? 'gradient-grey':classColor" class="su-btn primary">
+    @click="$emit('action');" :class="disabled ? 'gradient-grey':classColor" class="su-btn">
         <slot name="title">
-            <span :class="uppercase ? 'text-uppercase' : ''">{{ title }}</span>
+            <span>{{ title }}</span>
         </slot>
     </a>
 </template>
@@ -24,6 +24,10 @@ export default {
             type: Boolean,
             default: true
         },
+        classColor: {
+            type: Boolean,
+            default: true
+        },
         color: {
             type: String,
             default: "#51B748"
@@ -35,6 +39,10 @@ export default {
         disabled: {
             type: Boolean,
             default: false
+        },
+        primary: {
+            type: String,
+            default: "primary"
         },
         href: {},
         to: {}
